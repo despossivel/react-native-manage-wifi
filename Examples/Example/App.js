@@ -16,7 +16,7 @@ import {
   PermissionsAndroid
 } from 'react-native';
 
-import wifi from 'react-native-android-wifi';
+import wifi from 'react-native-manage-wifi';
 
 type Props = {};
 export default class App extends Component<Props> {

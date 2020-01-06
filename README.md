@@ -1,4 +1,4 @@
-# react-native-android-wifi
+# react-native-manage-wifi
 
 A react-native module for viewing and connecting to Wifi networks on Android devices.
 
@@ -8,20 +8,20 @@ A react-native module for viewing and connecting to Wifi networks on Android dev
 
 ### Add it to your android project
 ```bash
-npm install react-native-android-wifi --save
+npm install react-native-manage-wifi --save
 ```
 
 ### Install the native dependencies
 Use react-native link to install native dependencies automatically:
 ```bash
-react-native link react-native-android-wifi
+react-native link react-native-manage-wifi
 ```
 or do it manually as described [here](docs/link-manually.md).
 
 ### Example usage
 
 ```javascript
-import wifi from 'react-native-android-wifi';
+import wifi from 'react-native-manage-wifi';
 ```
 
 Permissions: Starting with Android API 25, apps must be granted the ACCESS_COARSE_LOCATION (or ACCESS_FINE_LOCATION) permission in order to obtain results.
@@ -62,7 +62,7 @@ wifi.setEnabled(true);
 ```
 
 Sign device into a specific network:
-> This method doesn't have a callback when connection succeeded, check [this](https://github.com/devstepbcn/react-native-android-wifi/issues/4) issue.
+> This method doesn't have a callback when connection succeeded, check [this](https://github.com/despossivel/react-native-manage-wifi/issues/4) issue.
 Added support for 'WPA2 PSK' wifi security mode and handling SSID for Lollipop and Kitkat.
 
 ```javascript

@@ -1,12 +1,12 @@
-# react-native-android-wifi
+# react-native-manage-wifi
 ## Link Manually
 
 * In `android/setting.gradle`
 ```gradle
 ...
 include ':app'
-include ':react-native-android-wifi'
-project(':react-native-android-wifi').projectDir = new File(rootProject.projectDir, '../node_modules/react-native-android-wifi/android')
+include ':react-native-manage-wifi'
+project(':react-native-manage-wifi').projectDir = new File(rootProject.projectDir, '../node_modules/react-native-manage-wifi/android')
 ```
 
 * In `android/app/build.gradle`
@@ -15,7 +15,7 @@ project(':react-native-android-wifi').projectDir = new File(rootProject.projectD
 ...
 dependencies {
     ...
-  compile project(':react-native-android-wifi')
+  compile project(':react-native-manage-wifi')
 }
 ```
 
